@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/marczinusd/hestia/master/src/Hestia.ConsoleRunner/config.schema.json",
+  "coverageReportLocation": "/home/marczinusd/dev/hestia-test/coveragereport/Cobertura.xml",
+  "repoRoot": "/home/marczinusd/dev/hestia-test",
+  "sourceRelativePath": "src",
+  "fileExtensions": [".cs"],
+  "statGranularity": "full",
+  "ignorePatterns": [
+    "(.*)AssemblyInfo.cs(.*)",
+    "(.*)AssemblyAttributes.cs(.*)",
+    "(.*)Test.cs",
+    "Test.Hestia(.*).cs"
+  ],
+  "buildCommands": ["make"],
+  "testCommands": ["make test"]
+}

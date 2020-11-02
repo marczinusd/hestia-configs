@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/marczinusd/hestia/master/src/Hestia.ConsoleRunner/config.schema.json",
+  "coverageReportLocation": "/home/marczinusd/dev/redux/coverage/lcov.info",
+  "repoRoot": "/home/marczinusd/dev/redux",
+  "sourceRelativePath": "src",
+  "fileExtensions": [".js", ".ts"],
+  "statGranularity": "full",
+  "ignorePatterns": [],
+  "buildCommands": ["npm install"],
+  "testCommands": ["npm run test:cov"]
+}

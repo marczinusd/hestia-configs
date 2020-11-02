@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/marczinusd/hestia/master/src/Hestia.ConsoleRunner/config.schema.json",
+  "coverageReportLocation": "/home/marczinusd/dev/react/coverage/lcov.info",
+  "repoRoot": "/home/marczinusd/dev/react",
+  "sourceRelativePath": "packages",
+  "fileExtensions": [".js", ".ts"],
+  "statGranularity": "full",
+  "ignorePatterns": [],
+  "buildCommands": ["yarn install"],
+  "testCommands": ["yarn test --coverage"]
+}
