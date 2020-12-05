@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/marczinusd/hestia/master/src/Hestia.ConsoleRunner/config.schema.json",
+  "coverageReportLocation": "/home/marczinusd/dev/gatsby/coverage/lcov.info",
+  "repoRoot": "/home/marczinusd/dev/gatsby",
+  "sourceRelativePath": "packages",
+  "fileExtensions": [".ts"],
+  "statGranularity": "file",
+  "ignorePatterns": [],
+  "buildCommands": ["npm install --silent"],
+  "testCommands": ["npm run test:coverage"]
+}

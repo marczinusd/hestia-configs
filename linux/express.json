@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/marczinusd/hestia/master/src/Hestia.ConsoleRunner/config.schema.json",
+  "coverageReportLocation": "/home/marczinusd/dev/express/coverage/coverage.json",
+  "repoRoot": "/home/marczinusd/dev/express",
+  "sourceRelativePath": ".",
+  "fileExtensions": [".js"],
+  "statGranularity": "file",
+  "ignorePatterns": [],
+  "buildCommands": ["npm install --silent"],
+  "testCommands": ["npm run test-cov"]
+}

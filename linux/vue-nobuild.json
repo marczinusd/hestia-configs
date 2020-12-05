@@ -4,8 +4,6 @@
   "repoRoot": "/home/marczinusd/dev/vue",
   "sourceRelativePath": "src",
   "fileExtensions": [".js", ".ts"],
-  "statGranularity": "file",
-  "ignorePatterns": [],
-  "buildCommands": ["npm install --silent"],
-  "testCommands": ["npm run test:cover"]
+  "statGranularity": "full",
+  "ignorePatterns": []
 }
